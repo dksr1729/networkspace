@@ -1,0 +1,480 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Space</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="{% static 'webapp/images/logo.png' %}" type="image/x-icon" />
+    <link rel="stylesheet" href="{% static 'webapp/css/styles.css' %}">
+    <script src="{% static 'webapp/js/scripts.js' %}"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="{% static 'webapp/images/logo.png' %}" alt="NetworkSpace Logo" class="logo">
+                <h1 class="site-title" 
+                    style="cursor: pointer; " 
+                    onclick="document.getElementById('forbackground').scrollIntoView({ behavior: 'smooth' });">
+                    NETWORK SPACE
+                </h1>
+            </div>
+            
+            <nav class="nav-links">
+                <div class="dropdown">
+                    <a class="nav-button">Services<span class="arrow-down">▼</span></a>
+                    <div class="dropdown-menu">
+                        <a href="#BrandProfiling" class="dropdown-item">Brand Profiling</a>
+                        <a href="#SEO" class="dropdown-item">Search Engine Optimization</a>
+                        <a href="#SocialMediaMarketing" class="dropdown-item">Social Media Marketing</a>
+                        <a href="#EmailMarketing" class="dropdown-item">Email Marketing</a>
+                        <a href="#WhatsappTargeting" class="dropdown-item">Whatsapp Targeting</a>
+                        <a href="#PerformaceAnalytics" class="dropdown-item">Performace Analytics</a>
+                        <a href="#PaidAdvertising" class="dropdown-item">Paid Advertising</a>
+                        <a href="#webdev" class="dropdown-item">Website Development</a>
+                    </div>
+                </div>
+
+                <a href="#teamwork-section" class="nav-button">About</a>
+                <a class="nav-button" href="{% url 'contact_us' %}">Contact Us</a>
+            </nav>
+            
+        </div>
+    </header>
+
+    <div class="forbackground" id="forbackground">
+        <div class="branding-section">
+            <div class="branding-left">
+                <center>
+                    <img src="{% static 'webapp/images/logo.png' %}" alt="NetworkSpace-Logo" class="branding-logo">
+                </center>
+            </div>
+            <div class="branding-right">
+                <center>
+                    <p class="branding-text">
+                        Elevate your Branding Experience & Marketing Strategies with <br> <div style="font-size:60px">Network Space</div>
+                    </p>
+                    <button class="get-in-touch" onclick="location.href='{% url 'contact_us' %}'">Get in Touch</button>
+                </center>
+            </div>
+        </div>
+
+        <div class="itemscontentspl">
+            <p>
+                <span class="highlight">Network Space</span>'s Expert Digital Marketing and Brand Profiling Solutions helps you craft customized digital marketing strategies tailored to your business goals. 
+                From SEO optimization and content marketing to paid advertising campaigns, we employ proven methods 
+                to enhance your brand visibility in this digital network space.
+                Our goal is to drive high-quality traffic to your business, convert visitors into leads, and transform leads 
+                into sales, ensuring measurable results that grow your business exponentially.
+                <br> <br>
+            </p>
+        </div>
+    </div>
+
+    <div class="items-data">
+        <!-- Item 2 -->
+        <div class="imageitems">
+            <img class="imageitemsdata" src="{% static 'webapp/images/item3.svg' %}">
+        </div>
+        <div class="itemscontent">
+            <center>
+                <h3>Experience the Power of 
+                    <br>Digital Branding</h3>
+            </center>
+            <p>
+                In today’s digital-first world, every product or service is just a click away. Building a strong online presence 
+                is essential to becoming the preferred choice for your audience.
+                With Networkspace, you can reach millions of potential customers through effective digital marketing strategies. 
+                Announce your brand to the world, dominate your niche, and watch your business thrive.
+            </p>
+        </div>
+    </div>  
+
+    <div class="items-data">
+        <!-- Item 3 -->
+        <div class="itemscontent">
+            <center>
+            <h3>Why Choose Network Space?</h3>
+            </center>
+            <p>
+                We stand out as a top-tier digital marketing and branding agency by delivering unparalleled services 
+                that focus on results. Our approach involves understanding your objectives, creating targeted campaigns, 
+                and deploying fresh, relevant content to maximize your ROI.
+            </p>
+        </div>
+            <div class="imageitems">
+                <img class="imageitemsdata" src="{% static 'webapp/images/item2.svg' %}">
+            </div>
+    </div>
+  
+    <center>
+        <h3 class="special-line">Let us help you build traction, see results, and establish your brand as a leading in the business network</h3>
+    </center>
+
+    <!-- services cards -->
+     <center>
+        <h2 class="cardsheading" style="font-size:60px; color:#22745A;">Our Services</h2>
+     </center>
+
+    <div class="card-container" alt="card-container">
+        <div class="card">
+        <img src="{% static 'webapp/images/brandprofiling.png' %}" alt="Image 1" class="card-image">
+          <h3 class="card-heading" style="font-weight:bold;  color:#22745A;">Brand Profiling</h3>
+          <button onclick="location.href='#BrandProfiling';" class="read-more" >Read More</button>
+        </div>
+
+        <div class="card">
+            <img src="{% static 'webapp/images/seo.svg' %}" alt="Image 2" class="card-image">
+            <h3 class="card-heading" style="font-weight:bold; color:#22745A;">SEO</h3>
+          <button onclick="location.href='#SEO';" class="read-more" >Read More</button>
+        </div>
+        
+        <div class="card">
+            <img src="{% static 'webapp/images/smm.svg' %}" alt="Image 3" class="card-image">
+            <h3 class="card-heading" style="font-weight:bold;  color:#22745A;">Social Media Marketing</h3>
+          <button onclick="location.href='#SocialMediaMarketing';" class="read-more" >Read More</button>
+        </div>
+
+        <div class="card">
+            <img src="{% static 'webapp/images/emailmkt.svg' %}" alt="Image 4" class="card-image">
+            <h3 class="card-heading" style="font-weight:bold; color:#22745A;">Email Marketing</h3>
+          <button onclick="location.href='#EmailMarketing';" class="read-more" >Read More</button>
+        </div>
+    </div>
+
+    <div class="card-container" alt="card-container">
+        <div class="card">
+            <img src="{% static 'webapp/images/whatsappicon.svg' %}" alt="Image 5" class="card-image">
+            <h3 class="card-heading" style="font-weight:bold; color:#22745A;">Whatsapp Targeting</h3>
+          <button onclick="location.href='#WhatsappTargeting';" class="read-more" >Read More</button>
+        </div>
+
+        <div class="card">
+            <img src="{% static 'webapp/images/analytics.svg' %}" alt="Image 6" class="card-image">
+            <h3 class="card-heading" style="font-weight:bold; color:#22745A;">Performance Analytics</h3>
+          <button onclick="location.href='#PerformaceAnalytics';" class="read-more" >Read More</button>
+        </div>
+        
+        <div class="card">
+            <img src="{% static 'webapp/images/paidads.svg' %}" alt="Image 7" class="card-image">
+            <h3 class="card-heading" style="font-weight:bold; color:#22745A;">Paid Advertising</h3>
+          <button onclick="location.href='#PaidAdvertising';" class="read-more" >Read More</button>
+        </div>
+
+        <div class="card">
+            <img src="{% static 'webapp/images/webdev.svg' %}" alt="Image 8" class="card-image">
+            <h3 class="card-heading" style="font-weight:bold; color:#22745A;">Web Development</h3>
+          <button onclick="location.href='#webdev';" class="read-more" >Read More</button>
+        </div>
+    </div>
+
+      <!-- About Us section -->
+      <div class="teamwork-section" id="teamwork-section">
+        <div class="content">
+            <center>
+                <h1 class="whoareweheading">About Us</h1>
+            </center>
+            <p>
+               We are a passionate, creative, and dedicated team, committed to delivering best-in-class brand profiling and digital marketing solutions. At Networkspace, our mission is to empower brands to amplify their identity and unlock their true potential in the ever-evolving Network space.
+               We specialize in helping brands connect with their audience, promote their unique value propositions, and thrive in the Business. By identifying potential customers and creating tailored strategies, we enable our clients to grow their businesses and enhance their industry presence, driving increased growth and value.
+            </p>
+        </div>
+        <div class="image">
+            <img src="{% static 'webapp/images/teamwork1.png' %}" alt="Teamwork" class="who-are-we-image">
+        </div>
+    </div>
+
+    <!--Brand profiling-->
+    <div class="overallwrap" id="BrandProfiling">
+        <div class="leftwrap">
+            <img src="{% static 'webapp/images/brandprofiling.png' %}" alt="Brand Profiling 1">
+        </div>
+        <div class="rightwrap" style=" display: flex; justify-content: center; align-items: center; text-align: justify;">
+            <h2>Brand Profiling</h2>
+            <p><strong>Master the Art of Brand Profiling with Networkspace</strong><br>At Networkspace, we believe your brand is more than just a business — it’s a story, a personality, and an experience that resonates with your audience. Your brand is your most valuable asset, and nurturing it should be your top priority. Treat it like a growing child, building its unique identity, voice, and persona to ensure long-term success.</p>
+            <p>Many entrepreneurs mistakenly think that branding is a secondary task, to be addressed after other aspects of the business are settled. However, in today’s competitive market, branding and marketing are the pillars of any successful venture. To stand out and thrive, you must start crafting your brand’s presence TODAY!</p>
+            <p><strong>Why Branding Matters More Than Ever</strong><br>Recent statistics highlight that modern consumers are drawn to brands that build connections rather than merely pushing promotions. Authenticity and emotional resonance are key. While promotional campaigns help sell, what truly wins hearts is relatable, engaging, and value-driven content.</p>
+            <p>To achieve this, you need a strategic approach that balances creativity with data-driven insights. Remember, branding and marketing are dynamic fields where perfection is elusive, and experimentation is essential. Every campaign, piece of content, and design element should be treated as a step toward refining your brand’s identity.</p>
+            <p><strong>Let Networkspace Help You Shine</strong><br>Not sure where to start or worried about taking the wrong step? Don’t worry! Networkspace is here to guide you. Our team of experts specializes in creating bespoke strategies tailored to your unique brand needs. Here’s how we can help:</p>
+
+            <p>
+                <p><bold>1.Brand Identity Development:</bold> From logos to taglines, we craft every element to reflect your brand’s essence.</p>
+                <p><bold>2.Strategic Marketing Plans:<bold> We develop data-backed strategies to ensure your brand reaches the right audience.</p>
+                <p><bold>3.Creative Content Creation:<bold> Emotional, engaging, and effective — we create content that connects and converts.</p>
+                <p><bold>4.Brand Profiling and Positioning:<bold> Stand out in your industry with a distinctive brand persona.</p>
+            </p>
+
+            <p>At Networkspace, we don’t just create brands; we create experiences that last. Whether you’re launching a new venture or rebranding an existing business, our solutions are designed to help you dominate the market without dominating the canvas. Let’s build your brand beautifully and authentically together!</p>
+            <p><bold>Contact Networkspace Today</bold> and take the first step toward creating a brand that stands the test of time.</p>
+            <button class="read-more" id="readMore1" >Read More</button>
+            <button class="read-more" id="knowLess1" style="display: none; font-size:24px;" >Close </button>
+        </div>
+    </div>
+
+    <!--SEO-->
+    <div class="overallwrap" id="SEO">
+        
+        <div class="rightwrap" style="font-size:32px; display: flex; justify-content: center; align-items: center;padding-left:2%; text-align: justify;">
+            <h2>SEO</h2>
+            <p><strong>Driving Organic Success with Networkspace’s Search Engine Optimization </strong><br>In today's digital landscape, effective Search Engine Optimization (SEO) is the cornerstone of driving organic traffic, boosting visibility, and staying ahead of the competition. At Networkspace, we specialize in delivering tailored SEO marketing solutions designed to catapult your brand to the top of search engine results pages (SERPs).</p>
+            <p><strong>Data-Driven SEO Strategies for Maximum Impact</strong><br>Our approach to SEO is powered by advanced data analytics and industry-leading tools. By leveraging insights from Google Analytics, Ahrefs, SEMRUSH, and other cutting-edge platforms, we identify critical areas for optimization and implement strategic enhancements to keep your business ranking consistently high on search engines.</p>
+            <p>These tools help us:</p>
+            <p>
+                <p><bold>1.Analyze your website’s performance metrics.</p>
+                <p><bold>2.Identify high-performing keywords.</p>
+                <p><bold>3.Detect and fix site crawl errors.</p>
+                <p><bold>Generate actionable insights to refine your strategy.</p>
+            </p>
+
+            <p><strong>Comprehensive SEO Services Tailored to Your Needs</strong><br>Our team of SEO experts covers every aspect of optimization, ensuring your website is fully equipped to compete in a crowded digital space. Here’s how we help:<br>Our specialists enhance your content with target keywords, meta tags, and structured data to improve relevance and user engagement. We also optimize your internal linking structure to boost navigation and authority.</p>
+            <p><strong>Why Choose Networkspace for SEO?
+            </strong><br></p>
+            <p>
+                <p>1.Expertise Backed by Results: With years of experience and proven methodologies, our team ensures measurable improvements in organic traffic and rankings.</p>
+                <p>2.Customized Strategies: We understand that every business is unique. That’s why our SEO solutions are designed to align with your specific goals and industry demands.
+                </p>
+                <p>Continuous Optimization: SEO isn’t a one-time task. We consistently monitor, analyze, and adjust strategies to keep your site ahead of the curve.</p>
+                
+            </p>
+            <p>Whether you’re looking to improve your website’s searchability, enhance your content strategy, or drive sustainable growth, Networkspace’s SEO solutions are your gateway to success. Partner with us and experience the power of data-driven SEO that delivers results.</p>
+            <button class="read-more" id="readMore2" >Read More</button>
+            <button class="read-more" id="knowLess2" style="display: none; font-size:24px;" >Close </button>
+        </div>
+
+        <div class="leftwrap">
+            <img src="{% static 'webapp/images/seo.svg' %}" alt="Brand Profiling 2">
+        </div>
+
+    </div>
+
+    <!--SOCIAL MEDIA Marketing-->
+    <div class="overallwrap" id="SocialMediaMarketing">
+        <div class="leftwrap">
+            <img src="{% static 'webapp/images/smm.svg' %}" alt="Brand Profiling 1">
+        </div>
+        <div class="rightwrap" style="font-size:32px; display: flex; justify-content: center; align-items: center; text-align: justify;">
+            <h2 style="font-size:56px">Social Media Marketing</h2>
+            <p><strong>Social media marketing at network space turns loyal Audiences into High-Value Leads</strong><br>At Networkspace, our expert social media marketers stay ahead of the curve, leveraging the latest social media trends to craft strategies tailored to your brand's unique vision. We focus on creating measurable goals and delivering results while aligning with your schedule, budget, and objectives.</p>
+            <p><strong>Engage, Nurture, and Convert</strong><br>Our approach begins with creative and engaging post ideas that captivate your audience and spark meaningful interactions. We then nurture these connections to foster a loyal and sustainable online community. Finally, with strategically designed calls to action, we convert engaged followers into high-quality leads that drive your business growth.</p>
+            <p>Choose Networkspace for data-driven social media marketing that boosts brand visibility, grows your online presence, and delivers measurable success. Let us help you turn social engagement into tangible business results.</p>
+            
+            <button class="read-more" id="readMore3" >Read More</button>
+            <button class="read-more" id="knowLess3" style="display: none; font-size:24px;" >Close </button>
+        </div>
+    </div>
+ 
+    <!--EMAIL MARKETING-->
+    <div class="overallwrap" id="EmailMarketing">
+        <div class="rightwrap" style="font-size:32px; display: flex; justify-content: center; align-items: center;padding-left:2%; text-align: justify;">
+            <h2>Email Marketing</h2>
+            <p><strong>Reach Your Target Group with Precision and Impact! </strong><br>At Networkspace, we specialize in delivering optimized email marketing solutions designed to help you connect directly with your targeted group. Through our expert email campaigns, we ensure your business stands out, builds meaningful relationships, and drives conversions.
+            </p>
+            <p>Our Email Marketing Services include:</p>
+            <p>
+                <p>1.Custom Email Templates: Tailored designs that reflect your brand identity and captivate your audience.</p>
+                <p>2.Advanced Copywriting: Persuasive, results-driven email copy that resonates with your potential customers and motivates action.</p>
+                <p>3.Analytical Tracking and Reporting: Gain insights into your campaigns with real-time performance metrics and detailed reports to refine your strategies.</p>
+            </p>
+            <p>We go beyond sending emails. At Networkspace, our approach ensures that every campaign aligns with your customers’ values, preferences, and needs, fostering trust and loyalty. Whether you're launching a new product, promoting a service, or building long-term customer relationships, our data-driven email marketing strategies maximize your reach and ROI.</p>
+
+            <p><strong>Pick Networkspace for Your Email Marketing Solution as we provide</strong><br>
+            <p>
+                <p>1.Personalized Campaigns: We customize each email to ensure it speaks directly to your audience, driving better engagement and results.</p>
+                <p>2.Proven Strategies: Our campaigns are backed by industry research, best practices, and the latest marketing trends to ensure success.</p>
+                <p>3.Direct Audience Connection: Email marketing remains one of the most effective tools for directly reaching potential customers and nurturing them through the sales funnel.</p>
+                </p>
+            </p>
+            <p>Join with us at Networkspace to deliver impactful messages that strengthen your brand and drive measurable growth. Let us help you build lasting connections with your customers through the power of email marketing!</p>
+            <p>
+                Get in touch with us to learn more about our services and get started on transforming your email marketing efforts.
+            </p>
+            
+            <button class="read-more" id="readMore4" >Read More</button>
+            <button class="read-more" id="knowLess4" style="display: none; font-size:24px;" >Close </button>
+        </div>
+
+        <div class="leftwrap">
+            <img src="{% static 'webapp/images/emailmkt.svg' %}" alt="Brand Profiling 2">
+        </div>
+
+    </div>
+
+    <!--WHATSAPP TARGETING-->
+    <div class="overallwrap" id="WhatsappTargeting">
+        <div class="leftwrap">
+            <img style="height:400px; width:400px;" src="{% static 'webapp/images/whatsappicon.svg' %}" alt="Brand Profiling 1">
+        </div>
+        <div class="rightwrap" style="font-size:32px; display: flex; justify-content: center; align-items: center; text-align: justify;">
+            <h2>Whatsapp Targeting</h2>
+            <p><strong>Engage Your Audience Where It Matters Most!</strong><br>At Networkspace, we understand that WhatsApp marketing has become a game-changer for businesses looking to connect with customers instantly, efficiently, and personally. With over 2 billion active users worldwide, WhatsApp is a powerful platform to enhance your customer engagement, build loyalty, and boost conversions.</p>
+            <p>Our WhatsApp Targeting Services are designed to help you connect with your audience in a way that feels personal and direct. Whether it’s through broadcast messages, WhatsApp Business automation, or two-way interactive conversations, our solutions are tailored to meet your business goals.</p>
+            <p><strong>Why WhatsApp Marketing?</strong></p>
+
+            <p>
+                <p>1.Direct Communication: Reach your target audience instantly with personalized messages that cut through the noise.</p>
+
+                <p>2.High Engagement Rates: WhatsApp messages boast higher open and response rates compared to traditional email or SMS campaigns.</p>
+
+                <p>3.Global Reach: Engage with customers from any corner of the world in their preferred messaging app.</p>
+
+                <p>4.Rich Media Support: Share engaging content like videos, images, documents, and catalogs to showcase your products and services.</p>
+
+                <p>5.Cost-Effective: Achieve high-impact results with lower marketing costs compared to other advertising channels.</p>
+
+            </p>
+
+            <p><strong>Our WhatsApp Marketing Services</strong></p>
+
+            <p>
+                <p>1.Targeted Campaigns: We help you identify your audience segments and craft personalized WhatsApp messages to ensure maximum relevance and impact.</p>
+
+                <p>2.Automated Messaging: Streamline your customer service and lead nurturing with WhatsApp automation and chatbots, available 24/7 to assist your audience.</p>
+
+                <p>3.Broadcast Messaging: Send bulk promotional messages, updates, and announcements to your audience while maintaining a personal touch.</p>
+
+                <p>4.Interactive Content: Drive engagement with clickable buttons, surveys, polls, and call-to-actions that guide users through your funnel.</p>
+
+                <p>5.Analytical Tracking: Monitor message delivery, open rates, and responses with detailed analytics to refine your strategies and improve performance.</p>
+
+            </p>
+            <p><strong>How Networkspace Elevate Your WhatsApp Campaigns</strong><br>At Networkspace, we combine cutting-edge tools and strategies to optimize your WhatsApp marketing efforts. From setting up your WhatsApp Business Account to managing end-to-end campaigns, we provide the expertise and support you need to thrive in this dynamic marketing channel.</p>
+            <p><strong>Key Features of Our Approach:</strong></p>
+            <p>
+                <p>Personalized, branded messages that resonate with your audience.</p>
+
+                <p>Seamless integration of WhatsApp marketing with your existing digital marketing campaigns.</p>
+
+                <p>Proactive strategies to build trust, generate leads, and boost sales.</p>
+            </p>
+            <p><strong>Start Connecting with Your Audience Today!</strong><br>With Networkspace’s WhatsApp Marketing Services, you can amplify your brand’s voice, build authentic relationships, and achieve your business objectives faster. Contact us now to leverage the full potential of WhatsApp targeting and stay ahead of the competition!</p>
+            
+            <button class="read-more" id="readMore5" >Read More</button>
+            <button class="read-more" id="knowLess5" style="display: none; font-size:24px;" >Close </button>
+        </div>
+    </div>
+
+    <!--PERFORMANCE ANALYTICS-->
+    <div class="overallwrap" id="PerformaceAnalytics">
+        
+        <div class="rightwrap" style="font-size:32px; display: flex; justify-content: center; align-items: center;padding-left:2%; text-align: justify;">
+            <h2>Performace Analytics</h2>
+            <p><strong>Unlock Actionable Insights to Drive Growth and Success</strong><br>At Networkspace, we understand that data is the backbone of business growth. Our Performance Analytics services are designed to help you uncover valuable insights, track key performance metrics, and make data-driven decisions to enhance your business strategies.</p>
+            <p>With advanced tools and expertise, we help you analyze, measure, and optimize performance across all digital marketing channels to achieve maximum ROI.
+            </p>
+            <p>Key Features of Our Performance Analytics Services:</p>
+            <p>
+                <p>1.Comprehensive Data Tracking:
+                    Gain real-time access to detailed performance metrics, including website traffic, conversion rates, customer engagement, and sales performance. We ensure every interaction is tracked and analyzed to provide a clear picture of your business’s success.</p>
+                <p>2.Custom Dashboards and Reports:
+                    Our user-friendly dashboards and reports are tailored to your specific goals, giving you a consolidated view of all your key metrics. From campaign performance to customer behavior trends, you'll have all the data you need at your fingertips.</p>
+                <p>3.Audience Behavior Analysis:
+                    Understand how your customers interact with your brand across digital platforms. By leveraging this data, we help you tailor your marketing efforts to align with their preferences and increase engagement.</p>
+                <p>4.Conversion Rate Optimization:
+                    With in-depth analytics, we identify bottlenecks in your customer journey and provide actionable strategies to improve conversions, ensuring your marketing efforts deliver tangible results.</p>
+                <p>5.Campaign Performance Evaluation:
+                    Measure the success of your digital campaigns, including SEO, PPC, social media, and email marketing. Our experts pinpoint what’s working and what can be improved to maximize your results.</p>
+            </p>
+
+            <p><strong>Empower Your Business with Networkspace’s Performance Analytics</strong><br>Our team of SEO experts covers every aspect of optimization, ensuring your website is fully equipped to compete in a crowded digital space. Here’s how we help:Transform your data into a competitive advantage with our performance analytics services. Whether you're looking to improve your marketing campaigns, enhance customer experiences, or boost conversions, we deliver insights that make a difference.<br>Partner with Networkspace to take control of your business performance and drive measurable growth. Contact us today to learn how we can help!</p>
+            
+            <button class="read-more" id="readMore6" >Read More</button>
+            <button class="read-more" id="knowLess6" style="display: none; font-size:24px;" >Close </button>
+        </div>
+
+        <div class="leftwrap">
+            <img src="{% static 'webapp/images/analytics.svg' %}" alt="Brand Profiling 2">
+        </div>
+
+    </div>
+    <!--PAID ADS-->
+    <div class="overallwrap" id="PaidAdvertising">
+        <div class="leftwrap">
+            <img src="{% static 'webapp/images/paidads.svg' %}" alt="Brand Profiling 1">
+        </div>
+        <div class="rightwrap" style="font-size:32px; display: flex; justify-content: center; align-items: center; text-align: justify;">
+            <h2>Paid Ads</h2>
+            <p><strong>Elevate Your Brand with Networkspace: Your Partner in Success</strong><br>At Networkspace, we specialize in transforming businesses into unforgettable brands. In today’s competitive landscape, effective branding isn’t optional — it’s essential. We craft strategies that resonate with your audience and position your brand for long-term growth.</p>
+            
+            <p>Our expert services include:</p>
+
+            <p>
+                <p>1.Brand Identity Development: Logos, taglines, and visuals that embody your brand.</p>
+                <p>2.Strategic Marketing: Data-driven campaigns to connect with the right audience.</p>
+                <p>3.Creative Content Creation: Engaging stories that drive emotional connections.</p>
+                <p>4.Brand Profiling and Positioning: Stand out with a unique voice and persona.</p>
+            </p>
+
+            <p>With Networkspace, your brand will shine authentically and leave a lasting impact.</p>
+            <p>Ready to grow? Contact Networkspace today and turn your vision into a compelling brand that thrives in any market.</p>
+            <button class="read-more" id="readMore7" >Read More</button>
+            <button class="read-more" id="knowLess7" style="display: none; font-size:24px;" >Close </button>
+        </div>
+    </div>
+
+    <!--WEB DEV-->
+    <div class="overallwrap" id="webdev">
+        
+        <div class="rightwrap" style="font-size:32px; display: flex; justify-content: center; align-items: center;padding-left:2%; text-align: justify;">
+            <h2>Website Development</h2>
+            <p><strong>Build Exceptional Websites with Networkspace: Your Digital Success Partner </strong><br>At Networkspace, we create websites that are more than just digital pages — they’re immersive experiences that captivate your audience and drive results. In today’s digital-first world, your website is your most powerful tool to grow and thrive.</p>
+            
+            <p>Our expert services include:</p>
+            <p>
+                <p>1.Custom Website Development: Tailored designs that reflect your brand and vision.</p>
+                <p>2.Responsive Design: Seamless experiences across all devices.</p>
+                <p>3.SEO-Optimized Structure: Boost visibility and rank higher in search results.</p>
+                <p>4.E-Commerce Solutions: Build online stores that convert visitors into loyal customers.</p>
+                <p>5.Maintenance and Support: Keeping your website secure, updated, and performing flawlessly.</p>
+            </p>
+
+            <p>Don’t settle for ordinary. With Networkspace, your website will become a powerhouse that stands out in the crowded digital landscape.</p>
+            <p>Let’s create together! Contact Networkspace today to turn your ideas into a dynamic online presence that drives success.</p>
+            
+            <button class="read-more" id="readMore8" >Read More</button>
+            <button class="read-more" id="knowLess8" style="display: none; font-size:24px;" >Close </button>
+        </div>
+
+        <div class="leftwrap">
+            <img src="{% static 'webapp/images/webdev.svg' %}" alt="Brand Profiling 2">
+        </div>
+
+    </div>
+ 
+    <script>
+        function setupToggle(readMoreId, knowLessId, index) {
+            const readMoreButton = document.getElementById(readMoreId);
+            const knowLessButton = document.getElementById(knowLessId);
+            const overallWrap = document.querySelectorAll('.overallwrap')[index];
+    
+            readMoreButton.addEventListener('click', () => {
+                overallWrap.classList.add('expanded');
+                readMoreButton.style.display = 'none';
+                knowLessButton.style.display = 'block';
+            });
+    
+            knowLessButton.addEventListener('click', () => {
+                overallWrap.classList.remove('expanded');
+                knowLessButton.style.display = 'none';
+                readMoreButton.style.display = 'block';
+            });
+        }
+    
+        setupToggle('readMore1', 'knowLess1', 0);
+        setupToggle('readMore2', 'knowLess2', 1);
+        setupToggle('readMore3', 'knowLess3', 2);
+        setupToggle('readMore4', 'knowLess4', 3);
+        setupToggle('readMore5', 'knowLess5', 4);
+        setupToggle('readMore6', 'knowLess6', 5);
+        setupToggle('readMore7', 'knowLess7', 6);
+        setupToggle('readMore8', 'knowLess8', 7);
+
+
+    </script>
+    
+
+
+</body>
+</html>
