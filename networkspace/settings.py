@@ -117,7 +117,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = 'networkspace/webapp/static/'
+STATIC_ROOT = '/webapp/static/'
 # Specify where to collect static files during deployment
 STATICFILES_DIRS = [BASE_DIR / "/webapp/static"]  # Project-wide static files
 
