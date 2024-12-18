@@ -1,0 +1,1719 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Network Space - Digital Marketing Experts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="{% static 'webapp/images/logo.png' %}" type="image/x-icon">
+
+    <!-- Enhanced SEO Meta Tags -->
+    <meta name="description" content="Network Space is a leading digital marketing agency specializing in SEO optimization, social media management, email marketing, brand profiling, and web development to elevate your online presence.">
+    <meta name="keywords" content="digital marketing agency, SEO optimization, social media management, email marketing, web development, branding, online advertising, digital strategy">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Network Space">
+
+    <!-- Canonical URL to prevent duplicate content -->
+    <link rel="canonical" href="https://www.networkspace.in">
+
+    <!-- Geotargeting (if applicable) -->
+    <meta name="geo.region" content="IN">
+    <meta name="geo.placename" content="Bengaluru, India">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Network Space - Digital Marketing Experts">
+    <meta property="og:description" content="Expert digital marketing services to boost your online presence. Specializing in SEO, social media marketing, and web development.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.networkspace.in">
+    <meta property="og:image" content="https://www.networkspace.in/images/social-share-image.jpg">
+    <meta property="og:image:alt" content="Network Space - Your Digital Marketing Partner">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@NetworkSpace">
+    <meta name="twitter:creator" content="@NetworkSpace">
+    <meta name="twitter:title" content="Network Space - Digital Marketing Experts">
+    <meta name="twitter:description" content="Discover professional digital marketing services. From SEO to email marketing, we elevate brands with comprehensive strategies.">
+    <meta name="twitter:image" content="https://www.networkspace.in/images/twitter-card-image.jpg">
+
+    <!-- Schema.org Structured Data -->
+        <!-- Organization Schema -->
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Network Space",
+        "url": "https://www.networkspace.in", 
+        "logo": "https://www.networkspace.com/static/webapp/images/logo.png",
+        "description": "Expert Digital Marketing and Brand Profiling Solutions helping businesses craft customized digital marketing strategies.",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "telephone": "+91-832-842-3151", 
+            "email": "team@networkspace.in"
+        },
+        "sameAs": [
+            "https://www.facebook.com/networkspace",
+            "https://www.linkedin.com/company/networkspace",
+            "https://www.instagram.com/networkspace"
+        ]
+        }
+        </script>
+        
+        <!-- Local Business Schema -->
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Network Space",
+        "image": "https://www.networkspace.com/static/webapp/images/logo.png",
+        "description": "Digital marketing agency specializing in brand profiling, SEO, social media marketing, and comprehensive digital strategies.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Main road", 
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "postalCode": "560037",
+            "addressCountry": "India"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 12.9569,
+            "longitude": 77.7011
+        },
+        "telephone": "+91-832-842-3151",
+        "email": "team@networkspace.in",
+        "priceRange": "$$",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+            "Monday",
+            "Tuesday", 
+            "Wednesday", 
+            "Thursday", 
+            "Friday",
+            "Saturday",
+            "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+        }
+        }
+        </script>
+        
+        <!-- Services Schema -->
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Network Space Digital Marketing Services",
+        "provider": {
+            "@type": "Organization",
+            "name": "Network Space"
+        },
+        "serviceType": "Digital Marketing",
+        "areaServed": "Global",
+        "offers": {
+            "@type": "Offer",
+            "itemOffered": [
+            {
+                "@type": "Service",
+                "name": "Brand Profiling",
+                "description": "Strategic brand identity development and positioning"
+            },
+            {
+                "@type": "Service", 
+                "name": "Search Engine Optimization (SEO)",
+                "description": "Comprehensive SEO strategies to improve online visibility"
+            },
+            {
+                "@type": "Service",
+                "name": "Social Media Marketing",
+                "description": "Targeted social media strategies to engage and convert audiences"
+            },
+            {
+                "@type": "Service",
+                "name": "Email Marketing",
+                "description": "Personalized email campaigns for customer engagement"
+            },
+            {
+                "@type": "Service",
+                "name": "WhatsApp Targeting",
+                "description": "Direct marketing and communication via WhatsApp"
+            },
+            {
+                "@type": "Service",
+                "name": "Performance Analytics",
+                "description": "Data-driven insights and performance tracking"
+            },
+            {
+                "@type": "Service",
+                "name": "Paid Advertising",
+                "description": "Multi-platform advertising strategies"
+            },
+            {
+                "@type": "Service",
+                "name": "Website Development",
+                "description": "Custom, responsive website design and development"
+            }
+            ]
+        }
+        }
+        </script>
+    <!--SCHEMA COMPLETE-->
+
+    <style>
+        :root {
+            --primary-bg-color: rgb(29, 28, 28);
+            --scrolled-bg-color: #1b5e47;
+            --accent-color: #22745A;
+            --dark-green: #1a593e;
+            --text-color: white;
+            --bg-image: url("{% static 'webapp/images/bgdesign1.png' %}");
+            --bg-image-aboutus: url("{% static 'webapp/images/aboutus.png' %}");
+            --bg-image-net: url("{% static 'webapp/images/netbg01.png' %}");
+        }
+
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+            font-weight: 500;
+            padding-top: 70px;
+        }
+
+        /* ---------- NAVBAR ------------------------ */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000; /* Ensure it stays above other content */
+            background-color: var(--primary-bg-color);
+            padding: 15px 20px;
+            transition: all 0.5s ease;
+        }
+
+        .navbar.scrolled {
+            background-color: var(--primary-bg-color);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-brand img {
+            max-width: 50px;
+            max-height: 50px;
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            margin-right: 10px;
+        }
+        
+        .nav-item{
+            display:inline-block;
+            margin-left:8px;
+        }
+
+        .navbar-brand .site-title {
+            font-size: xx-large;
+            color: var(--accent-color);
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .navbar-nav .nav-link {
+            color: var(--text-color);
+            font-size: x-large;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #FFFFFFFF;
+            font-weight: 600;
+            transform: scale(1.2);
+        }
+
+        .dropdown-menu {
+            background-color: var(--primary-bg-color);
+        }
+
+        .dropdown-item {
+            color: var(--text-color);
+            transition: background-color 0.5s ease;
+        }
+
+        .dropdown-item:hover {
+            background-color: var(--scrolled-bg-color);
+            color: var(--text-color);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .navbar-brand .site-title {
+                font-size: medium;
+                font-weight: 700;
+            }
+
+            .navbar-nav .nav-link {
+                font-size: large;
+            }
+
+            .navbar {
+                background-color: var(--primary-bg-color);
+                padding: 5px 10px;
+                transition: all 0.5s ease;
+            }
+
+            .container-fluid{
+                display: inline;
+            }
+
+        }
+
+        /* ---------- BRANDING SECTION ------------------------ */
+
+        .forbackground {
+            background-image: url("{% static 'webapp/images/brandingbackground.png' %}");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            min-height: 87vh; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 2%;
+        }
+        
+        .branding-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25vh; /* Creates a 25% viewport height gap between elements */
+            width: 100%;
+        }
+        
+        .branding-logo {
+            max-width: 300px;
+            height: auto;
+            border-radius: 50%;
+            animation: rotateLogo 15s linear infinite;
+        }
+        
+        @keyframes rotateLogo {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .branding-text {
+            color: var(--text-color);
+            font-weight: 500;
+            line-height: 1.3;
+            font-size: xx-large;
+            text-align: center;
+            padding-left: 10%;
+        }
+        
+        .branding-text .large-title {
+            font-size: xxx-large;
+            font-weight: bold;
+        }
+        
+        .get-in-touch {
+            background-color: #22745A;
+            color: white;
+            padding: 12px 20px;
+            font-size: 1.5rem;
+            border: none;
+            border-radius: 10px;
+            display:flex;
+        }
+        
+        .get-in-touch:hover {
+            background-color: var(--dark-green);
+            transform: scale(1.12);
+            transition: all 0.5s ease;
+        }
+        
+        .itemscontentspl .large-title {
+            font-size: xxx-large;
+            font-weight: bold;
+        }
+
+        .itemscontentspl {
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: x-large;
+            text-align:justify;
+        }
+
+        /* -----------------Responsive adjustments---------------- */
+        @media (max-width: 768px) {
+            .branding-section {
+                gap: 0; /* Remove the gap for proper centering */
+                height: 100vh; /* Full viewport height */
+                justify-content: center; /* Center vertically */
+                align-items: center; /* Center horizontally */
+            }
+        
+            .branding-logo {
+                max-width: 50%; /* Adjust size for mobile */
+                margin: auto; /* Ensure it's centered */
+            }
+        
+            .branding-text {
+                font-size: x-large; /* Adjust font size for readability */
+
+            }
+        
+            .branding-text .large-title {
+                font-size: xx-large;
+            }
+        }
+        
+        /* Special Items */
+        .items-data {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+            background-image: url("{% static 'webapp/images/bgdesign1.png' %}");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.55); /* White overlay with 50% opacity */
+            background-blend-mode: overlay; /* Blends background image with color overlay */
+        }
+
+        @media (min-width: 768px) {
+            .items-data {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+
+        .imageitems {
+            flex: 0 0 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .imageitems {
+                flex: 0 0 45%;
+                margin-bottom: 0;
+            }
+        }
+
+        .imageitemsdata {
+            width: 75%;
+            height: auto;
+            max-width: 400px;
+            border-radius: 8px;
+        }
+
+        .itemscontent {
+            flex: 1;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (min-width: 768px) {
+            .itemscontent {
+                text-align: left;
+            }
+        }
+
+        .itemscontent h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #22745A;
+        }
+
+        @media (min-width: 768px) {
+            .itemscontent h3 {
+                font-size: 3rem;
+            }
+        }
+
+        .itemscontent p {
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: justify;
+            padding: 0 0%;
+        }
+
+        @media (min-width: 768px) {
+            .itemscontent p {
+                font-size: 1.5rem;
+                line-height: 1.25;
+            }
+        }
+
+        /* Alternate item layout for second item */
+        .items-data:nth-child(even) {
+            flex-direction: column-reverse;
+        }
+
+        @media (min-width: 768px) {
+            .items-data:nth-child(even) {
+                flex-direction: row;
+            }
+        }
+
+        .special-line {
+            font-weight: bold;
+            font-size: x-large;
+            color: #000000;
+            /* background-image: linear-gradient(#22745A, #2b9574); */
+            background-color: rgb(152, 143, 143);
+            padding: 10px;
+            margin: 5px 10px;
+            border-radius: 10px;
+            
+        }
+        
+        .special-line:hover {
+            transform: scale(1.051);
+            transition: all 0.5s ease;
+        }
+
+        @media (max-width: 768px) {
+            .special-line {
+                font-weight: bold;
+                font-size: medium;
+                color: #000000;
+                /* background-image: linear-gradient(#22745A, #2b9574); */
+                background-color: rgb(152, 143, 143);
+                padding: 10px;
+                margin: 5px 10px;
+                border-radius: 10px;
+                
+            }
+            
+            .special-line:hover {
+                transform: scale(1.051);
+                transition: all 0.5s ease;
+            }
+        }
+
+        /*  ---------- CARDS SECTION ------------  */
+
+        .services-section {
+            padding: 2rem 0;
+            background-image: var(--bg-image);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.25);
+            background-blend-mode: overlay;
+        }
+
+        .services-heading {
+            color: #22745A;
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        /* Ensure consistent spacing between rows */
+        .row > [class*='col-'] {
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            border: 2px solid white;
+            background-color: rgba(0, 0, 0, 0.7);
+            transition: transform 0.3s ease-in-out;
+            margin-bottom: 1.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-img-container {
+            height: 250px;
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            
+        }
+
+        .card-img-top {
+            max-width: 100%;
+            max-height: 100%;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 1rem;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-body {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .card-title {
+            color: white;
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            transition: all 0.3s ease-in-out;
+            align-self: center;
+            margin-top: auto;
+        }
+
+        .btn-primary:hover {
+            background-color: #22745A;
+            transform: scale(1.1);
+            border: 2px solid whitesmoke;
+        }
+
+        @media (max-width: 768px) {
+            .services-heading {
+                font-size: 2.5rem;
+            }
+
+            .row > [class*='col-'] {
+                margin-bottom: 1.5rem;
+            }
+
+            .card {
+                margin-bottom: 1rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+
+            .card-img-container {
+                height: 200px;
+            }
+        }
+        
+        /* ---------ABOUT US SECTION------------ */
+        .teamwork-section {
+            background-image: url("{% static 'webapp/images/aboutus.png' %}");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(0, 0, 0, 0.55); /* Black overlay with 55% opacity */
+            background-blend-mode: overlay;
+            padding: 2rem 0;
+        }
+        
+        @media (max-width: 776px) {
+            .teamwork-section {
+                background-position: center; /* Ensure correct positioning */
+                background-color: rgba(0, 0, 0, 0.15); /* Black overlay with 55% opacity */
+            }
+        }
+        
+        .teamwork-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        @media (max-width: 776px) {
+            .teamwork-content {
+                flex-direction: column-reverse; /* Image below text on mobile */
+                text-align: center; /* Center align text for smaller screens */
+            }
+        }
+        
+        .content-wrapper {
+            text-align: justify; /* Fix for center justification */
+            padding: 1rem;
+            width: 100%;
+            z-index: 1;
+            position: relative;
+        }
+        
+        @media (min-width: 992px) {
+            .content-wrapper {
+                width: 55%;
+                padding: 0 3rem 0 2rem;
+            }
+        }
+        
+        .image-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        @media (min-width: 992px) {
+            .image-wrapper {
+                width: 45%;
+                margin-bottom: 0;
+            }
+        }
+        
+        .who-are-we-image {
+            max-width: 100%;
+            max-height: 500px;
+            height: auto;
+            object-fit: contain;
+        }
+        
+        .whoareweheading {
+            color: #22745A;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        @media (min-width: 992px) {
+            .whoareweheading {
+                font-size: 4rem;
+            }
+        }
+        
+        .about-text {
+            font-size: 1rem;
+            line-height: 1.6;
+            text-align: justify; /* Fully justify text */
+        }
+        
+        @media (min-width: 992px) {
+            .about-text {
+                font-size: 1.5rem;
+            }
+        }
+        
+        /* -------------------- INDIVIDUAL SERVICES ------------- */
+ 
+        .overallwrap{
+            width: 100%;
+            margin-bottom: 40px;
+            transition: all 0.5s ease-in-out;
+            background-image: url("{% static 'webapp/images/netbg01.png' %}");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(0, 0, 0, 0.1); /* Black overlay with 55% opacity */
+            background-blend-mode: overlay;
+        }
+    
+        .content-wrap{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    
+        .leftwrap, .rightwrap {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    
+        .leftwrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .leftwrap img {
+            max-width: 100%;
+            height: auto;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .leftwrap img{
+            max-width: 400px;
+            max-height: 400px;
+        }
+
+        .rightwrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left:3%;
+        }
+    
+        .rightwrap h2 {
+            font-size: xx-large;
+            color: #22745A;
+            margin-bottom: 15px;
+        }
+    
+        .rightwrap p, .rightwrap ul {
+            font-size: larger;
+            line-height: 1.5;
+            margin: 10px 0;
+            text-align: justify;
+        }
+    
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #22745A;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: flex-start;
+        }
+    
+        button:hover {
+            background-color: #1e614f;
+            transform: scale(1.05);
+        }
+    
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: rgba(0,0,0,0.7);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+    
+        .modal-content {
+            background-color: #1a1a1a;
+            margin: 5% auto;
+            padding: 20px;
+            border-radius: 10px;
+            width: 85%;
+            max-width: 1200px;
+            height: 90vh;
+            position: relative;
+            border: 1px solid #FAFAFAFF;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    
+        .modal-inner-content {
+            /* Enable scrolling */
+            overflow-y: auto;
+            
+            /* Hide scrollbar for Chrome, Safari and Opera */
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            
+            /* Hide scrollbar for IE, Edge and Firefox */
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+            
+            /* Ensure padding and comfortable scrolling */
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 20px;
+        }
+    
+        /* Optional: Smooth scrolling for better UX */
+        .modal-inner-content {
+            scroll-behavior: smooth;
+        }
+    
+        /* Custom Scrollbar */
+        .modal-inner-content::-webkit-scrollbar {
+            width: 8px;
+        }
+    
+        .modal-inner-content::-webkit-scrollbar-track {
+            background: #2c2c2c;
+            border-radius: 10px;
+        }
+    
+        .modal-inner-content::-webkit-scrollbar-thumb {
+            background: #22745A;
+            border-radius: 10px;
+        }
+    
+        .modal-inner-content h2 {
+            color: #22745A;
+            border-bottom: 2px solid #22745A;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+    
+        .modal-inner-content p, 
+        .modal-inner-content ul {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+    
+        .modal-inner-content ul {
+            padding-left: 30px;
+        }
+    
+        .close-button {
+            color: #22745A;
+            float: right;
+            font-size: 35px;
+            font-weight: bold;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            transition: color 0.3s ease;
+        }
+    
+        .close-button:hover {
+            color: #1e614f;
+        }
+    
+        /* Animation for Modal */
+        .modal.show {
+            opacity: 1;
+            display: block;
+        }
+
+        .responsive-image {
+            width: 35vw;
+            height: 35vw;
+            max-width: 500px;
+            max-height: 500px;
+            object-fit: contain;
+            transition: all 0.5s ease-in-out;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content-wrap {
+                flex-direction: column;
+            }
+        
+            .leftwrap, .rightwrap {
+                width: 100%;
+                padding: 10px;
+            }
+        
+            .rightwrap {
+                order: -1; /* Ensures image is on top in mobile view */
+            }
+        
+            .leftwrap {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .responsive-image {
+                width: 80%;
+                max-width: 400px;
+                height: auto;
+                margin-bottom: 20px;
+            }
+        
+            .rightwrap h2, 
+            .leftwrap h2 {
+                text-align: center;
+            }
+        
+            .rightwrap p, 
+            .leftwrap p {
+                text-align: center;
+            }
+        
+            button {
+                align-self: center;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- NAVBAR HTML-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <!-- Logo and Site Title -->
+            <a class="navbar-brand" href="#" onclick="document.getElementById('forbackground').scrollIntoView({ behavior: 'smooth' });">
+                <img src="{% static 'webapp/images/logo.png' %}" 
+                    alt="NetworkSpace Logo" 
+                    class="img-fluid navbarlogo" 
+                    loading="lazy" 
+                    >
+                <span class="site-title">NETWORK SPACE</span>
+            </a>
+
+            <!-- Hamburger Menu for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <!-- Services Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="#BrandProfiling">Brand Profiling</a></li>
+                            <li><a class="dropdown-item" href="#SEO">Search Engine Optimization</a></li>
+                            <li><a class="dropdown-item" href="#SocialMediaMarketing">Social Media Marketing</a></li>
+                            <li><a class="dropdown-item" href="#EmailMarketing">Email Marketing</a></li>
+                            <li><a class="dropdown-item" href="#WhatsappTargeting">Whatsapp Targeting</a></li>
+                            <li><a class="dropdown-item" href="#PerformanceAnalytics">Performace Analytics</a></li>
+                            <li><a class="dropdown-item" href="#PaidAdvertising">Paid Advertising</a></li>
+                            <li><a class="dropdown-item" href="#WebDevelopment">Website Development</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- About Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teamwork-section">About</a>
+                    </li>
+
+                    <!-- Contact Us Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'contact_us_form' %}">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- NAVBAR BOOTSTRAP-->
+    <!-- Bootstrap JS and Popper.js (required for dropdowns) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    
+    <!--NAVBAR JS-->
+    <script>
+        // Optional: Add scroll effect to change navbar background
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+    {% load static %}
+    <!-- BRANDING SECTION -->
+    <div class="forbackground" id="forbackground">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Logo Section -->
+                <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+                    <img src="{% static 'webapp/images/logo.png' %}" 
+                        alt="NetworkSpace Logo" 
+                        class="branding-logo img-fluid" 
+                        loading="lazy">
+                </div>
+                
+                <!-- Text Section -->
+                <div class="col-12 col-md-8 text-center text-md-start">
+                    <p class="branding-text">
+                        Elevate your Branding Experience & Marketing Strategies with <br>
+                        <span class="large-title">Network Space</span>
+                    </p>
+                    
+                    <div class="text-center text-md-start"  style="display:flex; justify-content:center;">
+                        <button class="get-in-touch" onclick="location.href='{% url 'contact_us_form' %}'">Get in Touch</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Description Section -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="itemscontentspl">
+                        <p>
+                            <span class="large-title">Network Space</span>'s Expert Digital Marketing and Brand Profiling Solutions helps you craft customized digital marketing strategies tailored to your business goals. 
+                            From SEO optimization and content marketing to paid advertising campaigns, we employ proven methods 
+                            to enhance your brand visibility in this digital network space.
+                            Our goal is to drive high-quality traffic to your business, convert visitors into leads, and transform leads 
+                            into sales, ensuring measurable results that grow your business exponentially.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2 SPECIAL ITEMS -->
+    <div class="items-data">
+        <div class="imageitems">
+            <img class="imageitemsdata" loading="lazy"  src="{% static 'webapp/images/item3.svg' %}" alt="Digital Branding">
+        </div>
+        <div class="itemscontent">
+            <h3>Experience the Power of<br>Digital Branding</h3>
+            <p>
+                In today's digital-first world, every product or service is just a click away. Building a strong online presence 
+                is essential to becoming the preferred choice for your audience.
+                With Networkspace, you can reach millions of potential customers through effective digital marketing strategies. 
+                Announce your brand to the world, dominate your niche, and watch your business thrive.
+            </p>
+        </div>
+    </div>  
+
+    <div class="items-data">
+        <div class="itemscontent">
+            <h3>Why Choose Network Space?</h3>
+            <p>
+                We stand out as a top-tier digital marketing and branding agency by delivering unparalleled services 
+                that focus on results. Our approach involves understanding your objectives, creating targeted campaigns, 
+                and deploying fresh, relevant content to maximize your ROI.
+            </p>
+        </div>
+        <div class="imageitems">
+            <img class="imageitemsdata" loading="lazy"  src="{% static 'webapp/images/item2.svg' %}" alt="Network Space Services">
+        </div>
+    </div>
+
+    <!-- SPECIAL LINE -->
+    <center>
+        <h3 class="special-line">Let us help you build traction, see results, and establish your brand as a leading in the business network</h3>
+    </center>
+
+    <!--CARDS SERVICES-->
+    <div class="container services-section">
+        <h2 class="services-heading">Our Services</h2>
+        
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <img loading="lazy"  src="{% static 'webapp/images/brandprofiling.svg' %}" class="card-img-top" alt="Brand Profiling">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Brand Profiling</h3>
+                        <a href="#BrandProfiling" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <img loading="lazy" src="{% static 'webapp/images/seo.svg' %}" class="card-img-top" alt="SEO">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">SEO</h3>
+                        <a href="#SEO" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <img loading="lazy" src="{% static 'webapp/images/smm.svg' %}" class="card-img-top" alt="Social Media Marketing">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Social Media Marketing</h3>
+                        <a href="#SocialMediaMarketing" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <img loading="lazy" src="{% static 'webapp/images/emailmkt.svg' %}" class="card-img-top" alt="Email Marketing">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Email Marketing</h3>
+                        <a href="#EmailMarketing" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <img loading="lazy"  src="{% static 'webapp/images/whatsappiconvector.svg' %}" class="card-img-top" alt="Whatsapp Targeting">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Whatsapp Targeting</h3>
+                        <a href="#WhatsappTargeting" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <img loading="lazy"  src="{% static 'webapp/images/analytics.svg' %}" class="card-img-top" alt="Performance Analytics">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Performance Analytics</h3>
+                        <a href="#PerformanceAnalytics" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <img loading="lazy"  src="{% static 'webapp/images/paidads.svg' %}" class="card-img-top" alt="Paid Advertising">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Paid Advertising</h3>
+                        <a href="#PaidAdvertising" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card h-100">
+                    <img loading="lazy"  src="{% static 'webapp/images/webdev.svg' %}" class="card-img-top" alt="Web Development">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Web Development</h3>
+                        <a href="#WebDevelopment" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About US-->
+    <section class="teamwork-section" id="teamwork-section">
+        <div class="container">
+            <div class="row teamwork-content">
+                <div class="col-12 content-wrapper">
+                    <h1 class="whoareweheading text-center">About Us</h1>
+                    <p class="about-text">
+                        We are a passionate, creative, and dedicated team, committed to delivering best-in-class brand profiling and digital marketing solutions. At Networkspace, our mission is to empower brands to amplify their identity and unlock their true potential in the ever-evolving Network space.
+                        
+                        We specialize in helping brands connect with their audience, promote their unique value propositions, and thrive in the Business. By identifying potential customers and creating tailored strategies, we enable our clients to grow their businesses and enhance their industry presence, driving increased growth and value.
+                    </p>
+                </div>
+                <div class="col-12 image-wrapper">
+                    <img loading="lazy"  src="{% static 'webapp/images/teamwork1.png' %}" alt="Teamwork" class="who-are-we-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--INDIVIDUAL SERVICES-->
+    
+    <!--Brand Profiling Section-->
+
+    <div class="overallwrap" id="BrandProfiling">
+        <!-- Content for Mobile and Desktop -->
+        <div class="content-wrap">
+            <div class="leftwrap">
+                <img loading="lazy"  src="{% static 'webapp/images/brandprofiling.svg' %}" alt="Brand Profiling" class="responsive-image">
+            </div>
+            <div class="rightwrap">
+                <h2>Brand Profiling</h2>
+                <p class="intro"><strong>Master the Art of Brand Profiling with Networkspace</strong><br>
+                    At Networkspace, we believe your brand is more than just a business &mdash; it's a story, a personality, and an experience that resonates with your audience.</p>
+                <div class="more-content" style="display: none;">
+                    <p>Your brand is your most valuable asset, and nurturing it should be your top priority. Treat it like a growing child, building its unique identity, voice, and persona to ensure long-term success.</p>
+                </div>
+                <!-- Buttons -->
+                <button class="read-more" data-modal-id="brandProfilingModal">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div id="brandProfilingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-inner-content">
+                <h2>Brand Profiling</h2>
+                <p class="intro"><strong>Master the Art of Brand Profiling with Networkspace</strong><br>
+                    At Networkspace, we believe your brand is more than just a business &mdash; it's a story, a personality, and an experience that resonates with your audience.</p>
+                
+                <p>Your brand is your most valuable asset, and nurturing it should be your top priority. Treat it like a growing child, building its unique identity, voice, and persona to ensure long-term success.</p>
+                
+                <p><strong>Why Branding Matters More Than Ever</strong><br>
+                    Recent statistics highlight that modern consumers are drawn to brands that build connections rather than merely pushing promotions. Authenticity and emotional resonance are key. While promotional campaigns help sell, what truly wins hearts is relatable, engaging, and value-driven content.</p>
+                
+                <p>To achieve this, you need a strategic approach that balances creativity with data-driven insights. Remember, branding and marketing are dynamic fields where perfection is elusive, and experimentation is essential.</p>
+                
+                <p><strong>Let Networkspace Help You Shine</strong><br>
+                    Not sure where to start or worried about taking the wrong step? Don't worry! Networkspace is here to guide you. Our team of experts specializes in creating bespoke strategies tailored to your unique brand needs. Here's how we can help:</p>
+                
+                <ul>
+                    <li><strong>Brand Identity Development:</strong> From logos to taglines, we craft every element to reflect your brand's essence.</li>
+                    <li><strong>Strategic Marketing Plans:</strong> We develop data-backed strategies to ensure your brand reaches the right audience.</li>
+                    <li><strong>Creative Content Creation:</strong> Emotional, engaging, and effective &mdash; we create content that connects and converts.</li>
+                    <li><strong>Brand Profiling and Positioning:</strong> Stand out in your industry with a distinctive brand persona.</li>
+                </ul>
+                
+                <p>At Networkspace, we don't just create brands; we create experiences that last. Whether you're launching a new venture or rebranding an existing business, our solutions are designed to help you dominate the market.</p>
+                
+                <p><strong>Contact Networkspace Today</strong> and take the first step toward creating a brand that stands the test of time.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- SEO -->
+    <div class="overallwrap" id="SEO">
+        <!-- Content for Mobile and Desktop -->
+        <div class="content-wrap">
+            <div class="rightwrap">
+                <h2>SEO</h2>
+                <p class="intro"><strong>Driving Organic Success with Networkspace's Search Engine Optimization</strong><br>
+                    At Networkspace, we believe SEO is more than just rankings &mdash; it's about creating a strategic digital presence that connects with your audience.</p>
+                <div class="more-content" style="display: none;">
+                    <p>Search Engine Optimization is your digital compass, guiding potential customers directly to your brand's doorstep in the vast online landscape.</p>
+                </div>
+
+                <!-- Buttons -->
+                <button class="read-more" data-modal-id="seoModal">Read More</button>
+            </div>
+            <div class="leftwrap">
+                <img loading="lazy"  src="{% static 'webapp/images/seo.svg' %}" alt="SEO Services" class="responsive-image">
+            </div>
+        </div>
+    </div>
+    <div id="seoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-inner-content">
+                <h2>SEO Services</h2>
+                <p class="intro"><strong>Driving Organic Success with Networkspace's Search Engine Optimization</strong><br>
+                    At Networkspace, we believe SEO is more than just rankings &mdash; it's about creating a strategic digital presence that connects with your audience.</p>
+                
+                <p>Search Engine Optimization is your digital compass, guiding potential customers directly to your brand's doorstep in the vast online landscape. In today's competitive digital environment, visibility is key.</p>
+                
+                <p><strong>Why SEO Matters More Than Ever</strong><br>
+                    Modern digital statistics reveal that over 90% of online experiences begin with a search engine. Your ranking isn't just a number &mdash; it's a direct reflection of your brand's online credibility and reach.</p>
+                
+                <p>To achieve top rankings, you need a holistic approach that balances technical optimization with compelling content. SEO is an art and science that requires continuous adaptation and strategic insight.</p>
+                
+                <p><strong>Let Networkspace Elevate Your Digital Presence</strong><br>
+                    Unsure about navigating the complex world of SEO? We've got you covered. Our team of experts specializes in creating comprehensive SEO strategies tailored to your unique business needs. Here's how we can help:</p>
+                
+                <ul>
+                    <li><strong>Keyword Strategy:</strong> Identifying and targeting keywords that drive meaningful traffic to your business.</li>
+                    <li><strong>Technical SEO Optimization:</strong> Ensuring your website meets the latest search engine requirements and best practices.</li>
+                    <li><strong>Content Optimization:</strong> Crafting content that not only ranks well but engages and converts your target audience.</li>
+                    <li><strong>Performance Analytics:</strong> Continuous monitoring and strategic adjustments to maximize your digital performance.</li>
+                </ul>
+                
+                <p>At Networkspace, we don't just improve rankings; we build sustainable digital strategies that transform your online visibility. Whether you're a startup or an established enterprise, our solutions are designed to deliver measurable results.</p>
+                
+                <p><strong>Contact Networkspace Today</strong> and unlock the full potential of your digital presence through expert SEO services.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Social Media Marketing Section -->
+    <div class="overallwrap" id="SocialMediaMarketing">
+        <div class="content-wrap">
+            <div class="leftwrap">
+                <img loading="lazy"  src="{% static 'webapp/images/smm.svg' %}" alt="Social Media Marketing" class="responsive-image mobile-top">
+            </div>
+            <div class="rightwrap">
+                <h2>Social Media Marketing</h2>
+                <p class="intro"><strong>Social Media Marketing that Transforms Audiences into High-Value Leads</strong><br>
+                    At Networkspace, we leverage cutting-edge social media strategies to elevate your brand's digital presence.</p>
+                <div class="more-content" style="display: none;">
+                    <p>Transform social interactions into meaningful connections that drive business growth.</p>
+                </div>
+                <!-- Buttons -->
+                <button class="read-more" data-modal-id="socialMediaModal">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div id="socialMediaModal" class="modal" data-modal="true">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-inner-content">
+                <h2>Social Media Marketing</h2>
+                <p class="intro"><strong>Social Media Marketing that Transforms Audiences into High-Value Leads</strong><br>
+                    At Networkspace, we leverage cutting-edge social media strategies to elevate your brand's digital presence.</p>
+                
+                <p>In today's digital landscape, social media is more than just a platform &mdash; it's a powerful tool for building meaningful connections and driving business growth.</p>
+                
+                <p><strong>Our Comprehensive Social Media Strategy</strong><br>
+                    We don't just post content; we create experiences that resonate with your target audience. Our approach is holistic and data-driven.</p>
+                
+                <ul>
+                    <li><strong>Strategic Content Creation:</strong> Crafting engaging posts that capture attention and spark conversations.</li>
+                    <li><strong>Audience Engagement:</strong> Building and nurturing online communities that align with your brand values.</li>
+                    <li><strong>Conversion-Focused Tactics:</strong> Transforming social media interactions into tangible business opportunities.</li>
+                    <li><strong>Performance Analytics:</strong> Continuous monitoring and optimization of social media campaigns.</li>
+                </ul>
+                
+                <p>At Networkspace, we understand that social media marketing is an art and a science. We blend creativity with strategic insights to deliver exceptional results.</p>
+                
+                <p><strong>Why Choose Networkspace?</strong></p>
+                <ul>
+                    <li>Data-driven strategies tailored to your unique brand identity</li>
+                    <li>Expert team staying ahead of the latest social media trends</li>
+                    <li>Measurable results that translate to business growth</li>
+                </ul>
+                
+                <p><strong>Contact Networkspace Today</strong> and unlock the full potential of your social media presence.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Email Marketing Section -->
+    <div class="overallwrap" id="EmailMarketing">
+        <div class="content-wrap">
+            <div class="rightwrap">     
+                <h2>Email Marketing</h2>
+                <p class="intro"><strong>Precision Email Marketing that Connects and Converts</strong><br>
+                    At Networkspace, we craft email campaigns that reach your audience with impact and purpose.</p>
+                <div class="more-content" style="display: none;">
+                    <p>Transform your email strategy into a powerful tool for customer engagement and business growth.</p>
+                </div>
+                <!-- Buttons -->
+                <button class="read-more" data-modal-id="emailMarketingModal">Read More</button>
+                </div>
+            <div class="leftwrap">
+                <img loading="lazy"  src="{% static 'webapp/images/emailmkt.svg' %}" alt="Email Marketing" class="responsive-image mobile-top">
+            </div>
+        </div>
+    </div>
+    <div id="emailMarketingModal" class="modal" data-modal="true">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-inner-content">
+                <h2>Email Marketing</h2>
+                <p class="intro"><strong>Precision Email Marketing that Connects and Converts</strong><br>
+                    At Networkspace, we craft email campaigns that reach your audience with impact and purpose.</p>
+                
+                <p>Email marketing remains one of the most powerful tools for direct communication, offering unparalleled precision and personal touch.</p>
+                
+                <p><strong>Our Comprehensive Email Marketing Approach</strong><br>
+                    We go beyond simple email sending. Our strategy focuses on creating meaningful connections that drive real business results.</p>
+                
+                <ul>
+                    <li><strong>Custom Email Design:</strong> Tailored templates that reflect your brand's unique identity.</li>
+                    <li><strong>Compelling Copywriting:</strong> Persuasive content that resonates with your target audience.</li>
+                    <li><strong>Advanced Analytics:</strong> Detailed performance tracking and insights.</li>
+                    <li><strong>Personalization Strategies:</strong> Targeted campaigns that speak directly to individual customer needs.</li>
+                </ul>
+                
+                <p>Our email marketing solutions are designed to:</p>
+                <ul>
+                    <li>Build and nurture customer relationships</li>
+                    <li>Drive conversions and sales</li>
+                    <li>Provide measurable ROI</li>
+                </ul>
+                
+                <p>At Networkspace, we understand that every email is an opportunity to connect, engage, and grow your business.</p>
+                
+                <p><strong>Why Partner with Networkspace?</strong></p>
+                <ul>
+                    <li>Industry-leading personalization techniques</li>
+                    <li>Data-driven campaign optimization</li>
+                    <li>Proven strategies that deliver results</li>
+                </ul>
+                
+                <p><strong>Contact Networkspace Today</strong> and revolutionize your email marketing approach.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Whatsapp Targeting Section -->
+    <div class="overallwrap" id="WhatsappTargeting">
+        <div class="content-wrap">
+            <div class="leftwrap">
+                <img loading="lazy"  src="{% static 'webapp/images/whatsappiconvector.svg' %}" alt="Whatsapp Targeting" class="responsive-image mobile-top">
+            </div>
+            <div class="rightwrap">
+                <h2>Whatsapp Targeting</h2>
+                <p class="intro"><strong>Engage Your Audience Where It Matters Most</strong><br>
+                    At Networkspace, we transform WhatsApp into a powerful marketing platform that connects you directly with your customers.</p>
+                <div class="more-content" style="display: none;">
+                    <p>Unlock the potential of instant, personal communication with our WhatsApp marketing strategies.</p>
+                </div>
+                <!-- Buttons -->
+                <button class="read-more" data-modal-id="whatsappTargetingModal">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div id="whatsappTargetingModal" class="modal" data-modal="true">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-inner-content">
+                <h2>Whatsapp Targeting</h2>
+                <p class="intro"><strong>Engage Your Audience Where It Matters Most</strong><br>
+                    At Networkspace, we transform WhatsApp into a powerful marketing platform.</p>
+                
+                <p>With over 2 billion active users worldwide, WhatsApp offers an unprecedented opportunity for direct, meaningful customer engagement.</p>
+                
+                <p><strong>Our WhatsApp Marketing Approach</strong></p>
+                <ul>
+                    <li><strong>Targeted Campaigns:</strong> Personalized messaging that speaks directly to your audience</li>
+                    <li><strong>Automated Messaging:</strong> 24/7 customer interaction through smart chatbots</li>
+                    <li><strong>Rich Media Messaging:</strong> Share videos, images, and interactive content</li>
+                    <li><strong>Advanced Analytics:</strong> Track and optimize your WhatsApp marketing performance</li>
+                </ul>
+                
+                <p><strong>Why Choose WhatsApp Marketing?</strong></p>
+                <ul>
+                    <li>Instant, direct communication</li>
+                    <li>Higher engagement rates</li>
+                    <li>Global reach</li>
+                    <li>Cost-effective marketing</li>
+                </ul>
+                
+                <p>Networkspace helps you leverage WhatsApp as a powerful tool to build authentic connections, generate leads, and drive business growth.</p>
+                
+                <p><strong>Contact Networkspace Today</strong> and revolutionize your customer engagement strategy.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Performance Analytics Section -->
+    <div class="overallwrap" id="PerformanceAnalytics">
+        <div class="content-wrap">
+            <div class="rightwrap">
+                <h2>Performance Analytics</h2>
+                <p class="intro"><strong>Transform Data into Actionable Insights</strong><br>
+                    At Networkspace, we turn raw data into strategic opportunities that drive your business forward.</p>
+                <div class="more-content" style="display: none;">
+                    <p>Unlock the power of data-driven decision-making with our comprehensive analytics services.</p>
+                </div>
+                <!-- Buttons -->
+                <button class="read-more" data-modal-id="performanceAnalyticsModal">Read More</button>
+            </div>
+            <div class="leftwrap">
+                <img loading="lazy"  src="{% static 'webapp/images/analytics.svg' %}" alt="Performance Analytics" class="responsive-image mobile-top">
+            </div>
+            
+        </div>
+    </div>
+    <div id="performanceAnalyticsModal" class="modal" data-modal="true">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-inner-content">
+                <h2>Performance Analytics</h2>
+                <p class="intro"><strong>Transform Data into Actionable Insights</strong><br>
+                    At Networkspace, we turn raw data into strategic opportunities.</p>
+                
+                <p>Data is the cornerstone of modern business strategy. Our performance analytics services provide the insights you need to make informed decisions.</p>
+                
+                <p><strong>Comprehensive Analytics Services</strong></p>
+                <ul>
+                    <li><strong>Real-Time Data Tracking:</strong> Monitor website traffic, conversions, and engagement</li>
+                    <li><strong>Custom Dashboards:</strong> Tailored reporting that gives you a clear view of your performance</li>
+                    <li><strong>Audience Behavior Analysis:</strong> Understand how customers interact with your brand</li>
+                    <li><strong>Conversion Rate Optimization:</strong> Identify and eliminate barriers to customer conversion</li>
+                </ul>
+                
+                <p><strong>Key Benefits</strong></p>
+                <ul>
+                    <li>Data-driven marketing strategies</li>
+                    <li>Improved customer insights</li>
+                    <li>Measurable business growth</li>
+                    <li>Competitive advantage through intelligent analytics</li>
+                </ul>
+                
+                <p>Networkspace empowers your business with actionable insights that translate data into tangible success.</p>
+                
+                <p><strong>Contact Networkspace Today</strong> and take control of your business performance.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Paid Advertising Section -->
+    <div class="overallwrap" id="PaidAdvertising">
+        <div class="content-wrap">
+            <div class="leftwrap">
+                <img loading="lazy"  src="{% static 'webapp/images/paidads.svg' %}" alt="Paid Advertising" class="responsive-image mobile-top">
+            </div>
+            <div class="rightwrap">
+                <h2>Paid Advertising</h2>
+                <p class="intro"><strong>Amplify Your Brand's Reach</strong><br>
+                    At Networkspace, we craft targeted paid advertising strategies that deliver measurable results.</p>
+                <div class="more-content" style="display: none;">
+                    <p>Maximize your marketing impact with precision-targeted advertising solutions.</p>
+                </div>
+                <!-- Buttons -->
+                <button class="read-more" data-modal-id="paidAdvertisingModal">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div id="paidAdvertisingModal" class="modal" data-modal="true">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-inner-content">
+                <h2>Paid Advertising</h2>
+                <p class="intro"><strong>Amplify Your Brand's Reach</strong><br>
+                    At Networkspace, we craft targeted paid advertising strategies.</p>
+                
+                <p>In a crowded digital marketplace, paid advertising is your key to standing out and reaching the right audience at the right time.</p>
+                
+                <p><strong>Our Paid Advertising Expertise</strong></p>
+                <ul>
+                    <li><strong>Strategic Campaign Planning:</strong> Targeted ads that deliver maximum ROI</li>
+                    <li><strong>Multi-Platform Advertising:</strong> Comprehensive coverage across digital channels</li>
+                    <li><strong>Advanced Targeting:</strong> Precision targeting based on demographics, interests, and behavior</li>
+                    <li><strong>Continuous Optimization:</strong> Data-driven adjustments to improve performance</li>
+                </ul>
+                
+                <p><strong>Advertising Platforms We Excel In</strong></p>
+                <ul>
+                    <li>Google Ads</li>
+                    <li>Facebook and Instagram Advertising</li>
+                    <li>LinkedIn Ads</li>
+                    <li>Display Network Advertising</li>
+                </ul>
+                
+                <p>Networkspace transforms your advertising spend into a powerful growth engine for your business.</p>
+                
+                <p><strong>Contact Networkspace Today</strong> and unlock the full potential of paid advertising.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Web Development Section -->
+    <div class="overallwrap" id="WebDevelopment">
+        <div class="content-wrap">
+            <div class="rightwrap">
+                <h2>Website Development</h2>
+                <p class="intro"><strong>Build Your Digital Success Story</strong><br>
+                    At Networkspace, we create websites that are more than just digital platforms - they're powerful business tools.</p>
+                <div class="more-content" style="display: none;">
+                    <p>Transform your online presence with cutting-edge web development solutions.</p>
+                </div>
+                <!-- Buttons -->
+                <button class="read-more" data-modal-id="webDevelopmentModal">Read More</button>
+            </div>
+            <div class="leftwrap">
+                <img loading="lazy"  src="{% static 'webapp/images/webdev.svg' %}" alt="Web Development" class="responsive-image mobile-top">
+            </div>
+            
+        </div>
+    </div>  
+    <div id="webDevelopmentModal" class="modal" data-modal="true">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-inner-content">
+                <h2>Website Development</h2>
+                <p class="intro"><strong>Build Your Digital Success Story</strong><br>
+                    At Networkspace, we create websites that are powerful business tools.</p>
+                
+                <p>Your website is your digital storefront, your brand's most important marketing asset. We build websites that don't just look great, but drive real business results.</p>
+                
+                <p><strong>Our Web Development Services</strong></p>
+                <ul>
+                    <li><strong>Custom Website Design:</strong> Unique, brand-aligned digital experiences</li>
+                    <li><strong>Responsive Development:</strong> Seamless performance across all devices</li>
+                    <li><strong>SEO-Optimized Structures:</strong> Improved search engine visibility</li>
+                    <li><strong>E-Commerce Solutions:</strong> Robust online selling platforms</li>
+                </ul>
+                
+                <p><strong>Technology Expertise</strong></p>
+                <ul>
+                    <li>Modern Frameworks (React, Vue, Angular)</li>
+                    <li>Responsive Design</li>
+                    <li>CMS Integration</li>
+                    <li>Performance Optimization</li>
+                </ul>
+                
+                <p>Networkspace turns your digital vision into a high-performing, user-friendly website that represents your brand perfectly.</p>
+                
+                <p><strong>Contact Networkspace Today</strong> and start your web development journey.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Preload critical images
+            const criticalImages = [
+                '{% static "webapp/images/logo.png" %}',
+                '{% static "webapp/images/branding-logo.png" %}'
+            ];
+    
+            criticalImages.forEach(src => {
+                const link = document.createElement('link');
+                link.rel = 'preload';
+                link.as = 'image';
+                link.href = src;
+                document.head.appendChild(link);
+            });
+    
+            // Optional: Image caching strategy
+            if ('caches' in window) {
+                caches.open('networkspace-images').then(function(cache) {
+                    criticalImages.forEach(src => {
+                        cache.add(src);
+                    });
+                });
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Unified Modal Handling
+            function setupModalInteractions() {
+                // Select all read more buttons and modals
+                const readMoreButtons = document.querySelectorAll('.read-more');
+                const modals = document.querySelectorAll('.modal');
+                const closeButtons = document.querySelectorAll('.close-button');
+
+                // Open Modal
+                readMoreButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        const modalId = this.getAttribute('data-modal-id');
+                        const modal = document.getElementById(modalId);
+                        
+                        if (modal) {
+                            modal.classList.add('show');
+                            document.body.style.overflow = 'hidden';
+                        }
+                    });
+                });
+
+                // Close Modal
+                function closeModal(modal) {
+                    modal.classList.remove('show');
+                    document.body.style.overflow = '';
+                }
+
+                // Close buttons
+                closeButtons.forEach(closeButton => {
+                    closeButton.addEventListener('click', function() {
+                        const modal = this.closest('.modal');
+                        closeModal(modal);
+                    });
+                });
+
+                // Close on clicking outside the modal
+                modals.forEach(modal => {
+                    modal.addEventListener('click', function(event) {
+                        if (event.target === modal) {
+                            closeModal(modal);
+                        }
+                    });
+                });
+
+                // Close on ESC key
+                document.addEventListener('keydown', function(event) {
+                    if (event.key === 'Escape') {
+                        const openModals = document.querySelectorAll('.modal.show');
+                        openModals.forEach(closeModal);
+                    }
+                });
+            }
+
+            // Initialize modal interactions
+            setupModalInteractions();
+        });
+    </script>
+
+</body>
+</html>

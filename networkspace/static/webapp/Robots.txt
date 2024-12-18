@@ -1,0 +1,41 @@
+User-agent: *
+Allow: /
+
+# Site Maps
+Sitemap: https://www.networkspace.com/sitemap.xml
+
+# Directories to allow
+Allow: /static/
+Allow: /media/
+
+# Directories to disallow (if any)
+Disallow: /admin/
+Disallow: /accounts/
+Disallow: /private/
+
+# Performance optimization for search engines
+Crawl-delay: 10
+
+# Specific SEO and crawling guidelines
+# Allow all bots to crawl public content
+# Prevent indexing of potentially sensitive or duplicate pages
+
+# Specific bot instructions (optional)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Additional common bot instructions
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
