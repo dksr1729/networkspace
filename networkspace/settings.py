@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-k&pe0%eb&*&wx4u+^qh+$2xrovo!l@g)=0yj6zu^h4$*lt4g2l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -126,3 +126,7 @@ STATICFILES_DIRS = [BASE_DIR / "networkspace/static"]  # Project-wide static fil
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+CSRF_TRUSTED_ORIGINS = [
+    'https://networkspace.in',  # Add your site's domain
+    'https://www.networkspace.in',  # Add if using www version
+]
