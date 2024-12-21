@@ -1202,8 +1202,9 @@
 
           <!-- Contact Form -->
           <div class="max-w-2xl mx-auto">
-              <form id="contactForm" class="space-y-6 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+              <form id="contactForm" method="post" class="space-y-6 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
                   <!-- Name Field -->
+                  {% csrf_token %}
                   <div class="group">
                       <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Name</label>
                       <input
