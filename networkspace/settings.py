@@ -24,8 +24,7 @@ SECRET_KEY = 'django-insecure-9t6kot@dt)94nxs($b)#cc(@80%jz1e(n6f1e2bwl*w4)s0$o#
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-SECURE_SSL_REDIRECT = True
-CSRF_COOKIE_SECURE = True
+
 
 ALLOWED_HOSTS = ['*']
 
@@ -123,7 +122,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
-STATIC_ROOT = BASE_DIR / "staticfiles"  # Optional for deployment
+STATIC_ROOT = BASE_DIR / "static"  # Optional for deployment
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
@@ -132,5 +131,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = [
     'https://networkspace.in',
-    'https://www.networkspace.in'  # Add this if your site can be accessed with 'www'.
+    'https://www.networkspace.in' 
 ]
